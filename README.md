@@ -1,0 +1,3 @@
+- use groq api
+- take text and voice input
+- response text with voice
