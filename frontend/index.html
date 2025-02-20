@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Voice-Text Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>Voice Assistant</h1>
+
+    <!-- Chat Window -->
+    <div id="chat-window"></div>
+
+    <!-- Input Section: text + microphone icon -->
+    <div id="input-section">
+      <input type="text" id="text-input" placeholder="Type your text here..." />
+      <button id="send-text">Send</button>
+      <!-- Microphone icon button -->
+      <button id="open-voice-popup" title="Record Voice">
+        <img src="mic.png" alt="Mic" style="width:20px;height:20px;" />
+      </button>
+    </div>
+  </div>
+
+  <!-- Voice Recording Popup -->
+  <div id="voice-popup" class="popup hidden">
+    <h2>Speak now</h2>
+    <p>Recording in progress...</p>
+    <button id="stop-recording">Stop</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

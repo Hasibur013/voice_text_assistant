@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+python-dotenv
+SpeechRecognition
+gTTS
+groq
+soundfile
+numpy
+aiofiles
+pydub
